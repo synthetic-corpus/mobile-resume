@@ -1,6 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
-.the-icons {
-  color: red;
+.menu {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+.menu span {
+  background-color:black;
+  font-size: 20px
 }
