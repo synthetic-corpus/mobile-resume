@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+.the-icons {
+  color: red;
+}
