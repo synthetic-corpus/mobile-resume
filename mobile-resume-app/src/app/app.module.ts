@@ -13,6 +13,9 @@ import { EducationEntryComponent } from './education/education-entry/education-e
 import { WorkEntryComponent } from './work/work-entry/work-entry.component';
 import { ProjectEntryComponent } from './projects/project-entry/project-entry.component';
 
+// Services
+import { HttpcallService } from './services/httpCall.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +33,7 @@ import { ProjectEntryComponent } from './projects/project-entry/project-entry.co
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [HttpcallService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
