@@ -1,4 +1,10 @@
-<p>
+<app-education-entry
+  *ngFor="let entry of schoolarray"
+  [entry]="entry"
+  [index]="schoolarray.indexOf(entry)"
+  >
+</app-education-entry>
+<!-- <p>
   This is a paragraph of education!
 </p>
 <p>in principio erat Verbum et Verbum erat apud Deum et
@@ -22,4 +28,4 @@
   ex voluntate viri sed ex Deo nati sunt 14 et
   Verbum caro factum est et habitavit in nobis
    et vidimus gloriam eius gloriam quasi unigeniti
-   a Patre plenum gratiae et veritatis </p>
+   a Patre plenum gratiae et veritatis </p> -->

@@ -1,21 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Section of CSS for the Navigation */
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
 .menu {
   position: fixed;
   bottom: 0;
-  background-color: black;
+  background-color: #4a4a4a;
   padding: 10px;
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
 .menu span {
-  background-color:black;
+  background-color:#4a4a4a;
 }
 
 .spacer {
   opacity: 0;
+}
+
+/* Controls the display of entries */
+
+.light-tan {
+  background-color: #EEEABA; /*Light Tan Color */
+  padding: 10px;
+  clear: both;
+}
+
+.tan {
+  background-color: #DCD8AA; /*Tan Color */
+  padding: 10px;
+  clear: both;
 }
 
 /* Adjust for Smart Phone */
