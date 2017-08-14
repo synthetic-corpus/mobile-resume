@@ -1,3 +1,10 @@
+<app-work-entry
+  *ngFor="let entry of workarray"
+  [entry]="entry"
+  [index]="workarray.indexOf(entry)"
+  >
+</app-work-entry>
+<!--
 <p>
   This is a paragraph of Work!
 </p>
@@ -23,3 +30,4 @@
   Verbum caro factum est et habitavit in nobis
    et vidimus gloriam eius gloriam quasi unigeniti
    a Patre plenum gratiae et veritatis </p>
+-->

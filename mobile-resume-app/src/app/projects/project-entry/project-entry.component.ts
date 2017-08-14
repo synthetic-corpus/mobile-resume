@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-project-entry',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./project-entry.component.css']
 })
 export class ProjectEntryComponent implements OnInit {
+  style: string;
+  @Input() entry: {title:string, webaddy:string, image:string, imgtag:string, description:string};
+  @Input() index: number;
 
   constructor() { }
 
   ngOnInit() {
+    // used to alternate background colors.
+    if (this.index % 2 === 0){
+      this.style = "row light-tan box";
+    }
+    else{
+      this.style = "row tan box";
+    }
   }
 
 }

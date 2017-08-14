@@ -1,4 +1,10 @@
-<p>
+<app-project-entry
+  *ngFor="let entry of projectarray"
+  [entry]="entry"
+  [index]="projectarray.indexOf(entry)"
+  >
+</app-project-entry>
+<!-- <p>
   This is a paragraph of projects!
 </p>
 <p>in principio erat Verbum et Verbum erat apud Deum et
@@ -22,4 +28,4 @@
   ex voluntate viri sed ex Deo nati sunt 14 et
   Verbum caro factum est et habitavit in nobis
    et vidimus gloriam eius gloriam quasi unigeniti
-   a Patre plenum gratiae et veritatis </p>
+   a Patre plenum gratiae et veritatis </p> -->
