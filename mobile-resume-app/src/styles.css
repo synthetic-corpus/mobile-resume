@@ -36,6 +36,10 @@
 
 /* Adjust for Smart Phone */
 @media screen and (max-width: 479px) {
+    img {
+      max-width: 300px;
+      height: auto;
+    }
     .menu span {
       font-size: 30px;
     }
