@@ -15,10 +15,10 @@ export class ProjectEntryComponent implements OnInit {
   ngOnInit() {
     // used to alternate background colors.
     if (this.index % 2 === 0){
-      this.style = "row light-tan box";
+      this.style = "light-tan";
     }
     else{
-      this.style = "row tan box";
+      this.style = "tan";
     }
   }
 

@@ -1,14 +1,14 @@
 <div [class]="style">
-  <h2>{{ entry.title}}</h2>
+  <h3>
+    {{ entry.title }}
+    <a [href]="entry.webaddy"><span class="glyphicon glyphicon-link"></span></a>
+  </h3>
 </div>
 <div [class]="style">
-  <div class="col-sm-9 banner">
+  <div class="banner">
     <img [src]="entry.image">
   </div>
-  <div class="col-sm-3">
-
-  </div>
 </div>
 <div [class]="style">
-  <p>{{ entry.description}}</p>
+  <p class="text-area">{{ entry.description}}</p>
 </div>

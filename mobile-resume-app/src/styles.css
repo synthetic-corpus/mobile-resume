@@ -36,9 +36,20 @@
 
 /* Adjust for Smart Phone */
 @media screen and (max-width: 479px) {
+    h1,
+    h2,
+    h3 {
+      align-content: center;
+    }
     img {
-      max-width: 300px;
+      max-width: 400px;
       height: auto;
+    }
+
+    .text-area {
+      max-width: 400px;
+      margin-left: 15px;
+      margin-right: 12px;
     }
     .menu span {
       font-size: 30px;
