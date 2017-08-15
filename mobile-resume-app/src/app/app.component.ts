@@ -18,8 +18,18 @@ export class AppComponent {
     // Loop through a continues scroll up until locationY == elementY
     if (locationY < elementY) {
       // Scroll downwards until it finds the element.
+      const scrollNow = setInterval(() => {
+        locationY = locationY + scrollDelta;
+        window.scrollTo(0, locationY);
+        if (locationY >= elementY) clearInterval(scrollNow);
+      }, scrollSpeed)
     }else{
       // Scroll upwards until it finds the element
+      const scrollNow = setInterval(() => {
+        locationY = locationY - scrollDelta;
+        window.scrollTo(0, locationY);
+        if (locationY <= elementY) clearInterval(scrollNow);
+      }, scrollSpeed)
     }
   }
 
@@ -32,7 +42,6 @@ export class AppComponent {
   smoothScroll(id) {
     // combines the above to functions to achieve a smooth scroll.
     const elementY = this.getElementY(id);
-    console.log(elementY);
-    // this.scrollToElement(elementY);
+    this.scrollToElement(elementY);
   }
 }
