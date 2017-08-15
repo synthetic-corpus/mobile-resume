@@ -16,7 +16,11 @@ export class AppComponent {
     const scrollSpeed = 1;
     const scrollDelta = 5;
     // Loop through a continues scroll up until locationY == elementY
-
+    if (locationY > elementY) {
+      // Scroll downwards until it finds the element.
+    }else{
+      // Scroll upwards until it finds the element
+    }
   }
 
   getElementY(id){
