@@ -16,8 +16,8 @@
   background-color:#4a4a4a;
 }
 
-.spacer {
-  opacity: 0;
+#spacer {
+  height: 50px;
 }
 
 /* Controls the display of entries */
