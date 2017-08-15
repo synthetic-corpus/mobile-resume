@@ -15,10 +15,10 @@ export class WorkEntryComponent implements OnInit {
   ngOnInit() {
     // used to alternate background colors.
     if (this.index % 2 === 0){
-      this.style = "row light-tan";
+      this.style = "light-tan";
     }
     else{
-      this.style = "row tan";
+      this.style = "tan";
     }
   }
 

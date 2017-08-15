@@ -1,3 +1,13 @@
 <div [class]="style">
-  Yay Work
+  <h3>
+    {{ entry.workplace }}
+    <a [href]="entry.webaddy"><span class="glyphicon glyphicon-link"></span></a>
+  </h3>
+  <p><em>{{ entry.location }}</em></p>
+  <p>{{ entry.position }} - {{entry.tenure }}</p>
+  <ul>
+    <li *ngFor="let skill of entry.duties">
+     {{ skill }}
+    </li>
+  </ul>
 </div>
