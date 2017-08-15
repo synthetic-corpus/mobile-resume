@@ -1,3 +1,11 @@
 <div [class]="style">
-  education-entry works!
+  <img class="icon" [src]="entry.icon" >
+  <h3 style="position: relative;">
+    {{ entry.name }}
+    <a [href]="entry.webaddy"><span class="glyphicon glyphicon-link"></span></a>
+  </h3>
+
+  <p class="text-area" style="position: relative;">
+    {{ entry.summary }}
+  </p>
 </div>
