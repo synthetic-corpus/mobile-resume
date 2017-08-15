@@ -1,29 +1,29 @@
-  <a name="home"></a>
+  <a name="home" id="home"></a>
 
 <app-home></app-home>
 
-  <a name="work"></a>
+  <a name="work" id="work"></a>
 
 <app-work></app-work>
 
-  <a name="education"></a>
+  <a name="education" id="education"></a>
 
 <app-education></app-education>
 
-  <a name="projects"></a>
+  <a name="projects" id="projects"></a>
 
 <app-projects></app-projects>
 
-  <a name="outside"></a>
+  <a name="outside" id="outside"></a>
 
 <app-outside></app-outside>
 <div id="spacer" class="light-tan">
 </div>
 <div class="the-icons menu">
-  <a href="#home"><span class="glyphicon glyphicon-home"></span></a>
-  <a href="#work"><span class="glyphicon glyphicon-briefcase"></span></a>
-  <a href="#education"><span class="glyphicon glyphicon-education"></span></a>
-  <a href="#projects"><span class="glyphicon glyphicon-picture"></span></a>
-  <a href="#outside"><span class="glyphicon glyphicon-sunglasses"></span></a>
-  <a href=<a href="mailto:joel.gonzaga@gmail.com?Subject=Hello%from%your%site!"><span class="glyphicon glyphicon-envelope"></span></a>
+  <a href="#home" (click)="smoothScroll('home')"><span class="glyphicon glyphicon-home"></span></a>
+  <a href="#work" (click)="smoothScroll('work')"><span class="glyphicon glyphicon-briefcase"></span></a>
+  <a href="#education" (click)="smoothScroll('education')"><span class="glyphicon glyphicon-education"></span></a>
+  <a href="#projects" (click)="smoothScroll('projects')"><span class="glyphicon glyphicon-picture"></span></a>
+  <a href="#outside" (click)="smoothScroll('outside')"><span class="glyphicon glyphicon-sunglasses"></span></a>
+  <a href="mailto:joel.gonzaga@gmail.com?Subject=Hello%from%your%site!"><span class="glyphicon glyphicon-envelope"></span></a>
 </div>

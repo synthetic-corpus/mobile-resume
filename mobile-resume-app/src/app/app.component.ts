@@ -20,12 +20,15 @@ export class AppComponent {
   }
 
   getElementY(id){
-    // must write a function to get the Y of an element by its ID
+    const element = <HTMLInputElement>document.getElementById(id);
+    const elementY = element.offsetTop;
+    return elementY;
   }
 
   smoothScroll(id) {
     // combines the above to functions to achieve a smooth scroll.
     const elementY = this.getElementY(id);
-    this.scrollToElement(elementY);
+    console.log(elementY);
+    // this.scrollToElement(elementY);
   }
 }
