@@ -1,5 +1,16 @@
 #main-background {
   background-color: white;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-site-backend.appspot.com/o/real-backgrounds%2Fbanner1000.jpg?alt=media&token=6f306d26-f60b-4518-b7b3-2f3c0d83566a");
+}
+
+#main-background h2 {
+  color: #f5a623; /* Orange */
+  text-shadow: 1px 1px black;
+}
+
+#main-background p, span, ul, li {
+  color: #fff; /* white */
+  text-shadow: 1px 1px black;
 }
 
 #biopic {
