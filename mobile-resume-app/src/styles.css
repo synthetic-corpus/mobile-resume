@@ -1,12 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* I love Fonts! */
-@import url('https://fonts.googleapis.com/css?family=Shrikhand');
-
-
-/* Section of CSS for the Navigation */
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
-
 .menu {
   position: fixed;
   bottom: 0;
